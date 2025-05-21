@@ -1,0 +1,17 @@
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+*.project
+*.settings
+*.classpath
+bin/
+build/
+out/
+.DS_Store
