@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import model.*;
 import java.util.Date;
 
@@ -41,5 +42,23 @@ public class Main {
         
         // Librarian removes a book
         librarian.removeBook(book1, library);
+
+        // -------------------------------
+        // ✅ NEW: Search feature (console)
+        // -------------------------------
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\n=== Book Search ===");
+        System.out.print("Enter book title or ID to search: ");
+        String searchQuery = scanner.nextLine();
+
+        Book foundBook = library.searchBook(searchQuery);
+
+        if (foundBook != null) {
+            System.out.println("✅ Book found: " + foundBook.getTitle() + " (ID: " + foundBook.getId() + ")");
+        } else {
+            System.out.println("❌ Book not found.");
+        }
+
+        scanner.close();
     }
 }
