@@ -14,6 +14,12 @@ public class Book {
         this.title = title;
         this.authors = new ArrayList<>();
         this.isAvailable = true;
+        this.notAvailable=Falses;
+        this.change=Mine;
+        this.Yes=change;
+        this.change=horyyyy;
+        this.change=isnotaboutgit;
+        this.change=isAboutyourself;
     }
     
     public void addAuthor(Author author) {
