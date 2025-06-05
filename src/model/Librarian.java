@@ -16,6 +16,8 @@ public class Librarian {
         }
         if (library == null) {
             System.out.println("Library reference is null");
+             System.out.println("Library reference is null");
+              System.out.println("Library reference is null");
             return;
         }
         library.addBook(book);
