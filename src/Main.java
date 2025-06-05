@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import model.*;
 import java.util.Date;
@@ -36,6 +37,8 @@ public class Main {
         
         // Try to borrow an already borrowed book
         member1.borrowBook(book1, dueDate);
+                member1.borrowBooke(book1, dueDate);
+
         
         // Return books
         member1.returnBook(book1);
