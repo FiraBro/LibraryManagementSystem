@@ -17,4 +17,11 @@ The system includes the following classes:
 1. Initialized local repository:
    ```bash
    git init
+   git add
+   git checkout -b
+   git push
+   etc
    ```
+   ````
+   Firagos Jemal     1501147
+   ````
