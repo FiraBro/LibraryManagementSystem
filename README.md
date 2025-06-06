@@ -26,7 +26,7 @@ The system includes the following classes:
  Group Member
    ````
    Firagos Jemal          1501147
-   Abdinajib Hssen        1500752
+   Abdinajib Hassen        1500752
    Daddacho Jemal         1501031
    Bethelhem alemu        1500958
    Tsedeniya dinku       1501718
