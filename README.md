@@ -23,7 +23,7 @@ The system includes the following classes:
    git pull 
    etc
    ```
-2. Group Member
+ Group Member
    ````
    Firagos Jemal          1501147
    Abdinajib Hssen        1500752
